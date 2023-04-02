@@ -1,7 +1,11 @@
 function Home() {
   return (
     <div className="Home">
-      <h1>Welcome Home.</h1>
+      <h1>
+        Are You Allowed
+        <br />
+        to Laugh?
+      </h1>
     </div>
   );
 }
