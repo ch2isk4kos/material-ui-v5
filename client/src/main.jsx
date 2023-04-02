@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router.config";
 // Custom Components
-import AppBar from "./components/AppBar";
+import AppBar from "./components/mui/AppBar";
 // import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
