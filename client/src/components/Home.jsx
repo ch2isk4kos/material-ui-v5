@@ -1,3 +1,5 @@
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Home() {
@@ -9,6 +11,16 @@ function Home() {
           <br />
           to Laugh?
         </h1>
+        <Link to="/jokes">
+          <Button variant="contained" color="primary">
+            Yes
+          </Button>
+        </Link>
+        <Link to="">
+          <Button variant="contained" color="error">
+            No
+          </Button>
+        </Link>
       </header>
     </div>
   );
