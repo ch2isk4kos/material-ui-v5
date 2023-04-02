@@ -1,11 +1,14 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 
-const Jokes = () => {
+function Jokes() {
   return (
     <div>
-      <h1>Dad Jokes.</h1>
+      <header className="jokes-header">
+        <h1>Dad Jokes.</h1>
+      </header>
     </div>
   );
-};
+}
 
 export default Jokes;
