@@ -1,2 +1,2 @@
 // React Router imports
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
