@@ -1,6 +1,6 @@
 import Layout from "./components/custom/layouts/main";
 import Home from "./components/custom/Home";
-import Jokes from "./components/custom/Jokes";
+import Categories from "./components/custom/Categories";
 import Other from "./components/custom/Other";
 import { useRoutes } from "react-router-dom";
 import "./App.css";
@@ -13,7 +13,13 @@ function App() {
     },
     {
       path: "/jokes",
-      element: <Jokes />,
+      element: <div>Just Jokes</div>,
+      children: [
+        {
+          path: "/jokes/categories",
+          element: <Categories />,
+        },
+      ],
     },
     {
       path: "/gfy",

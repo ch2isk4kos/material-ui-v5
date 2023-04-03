@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 // import * as React from "react";
 import { styled } from "@mui/material/styles";
@@ -14,7 +14,9 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-function Jokes() {
+function Categories() {
+  const [categories, setCategories] = useState([]);
+
   return (
     <div>
       <header className="jokes-header">
@@ -33,4 +35,4 @@ function Jokes() {
   );
 }
 
-export default Jokes;
+export default Categories;
