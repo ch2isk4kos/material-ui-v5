@@ -28,4 +28,5 @@ Blog Rocket [Animate a React App with AnimXYZ](https://blog.logrocket.com/animat
 Blog Rocket [Migrating to React Router v6 Guide](https://blog.logrocket.com/migrating-react-router-v6-guide/)<br>
 Dev.to [A Step-by-Step Guide to Using React v6](https://dev.to/franciscomendes10866/how-to-use-react-router-v6-2bce)<br>
 FreeCodeCamp [Fetching Data in React: Cheat Sheet](https://www.freecodecamp.org/news/fetch-data-react/)<br>
+Koen Woortman [ViteJS: How to Use Enviroment Variables](https://koenwoortman.com/vitejs-how-to-use-environment-variables/)<br>
 <br>
