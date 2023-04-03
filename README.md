@@ -10,3 +10,10 @@
 ## 3rd Party APIs
 
 ### [Dad Jokes](https://dadjokes.io/)
+
+<br>
+
+## Resources
+
+[Material UI](https://mui.com)<br>
+[A Step-by-Step Guide to Using React v6](https://dev.to/franciscomendes10866/how-to-use-react-router-v6-2bce)<br>
