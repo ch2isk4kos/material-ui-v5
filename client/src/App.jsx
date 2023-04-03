@@ -1,7 +1,7 @@
 import Layout from "./components/custom/layout/main";
-import Home from "./components/Home";
-import Jokes from "./components/Jokes";
-import Other from "./components/Other";
+import Home from "./components/custom/Home";
+import Jokes from "./components/custom/Jokes";
+import Other from "./components/custom/Other";
 import { useRoutes } from "react-router-dom";
 import "./App.css";
 
