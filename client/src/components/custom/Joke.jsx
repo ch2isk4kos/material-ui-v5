@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+// env variables:
+const URL = import.meta.env.VITE_RAPID_API_URL;
+const KEY = import.meta.env.VITE_RAPID_API_KEY;
+const HOST = import.meta.env.VITE_RAPID_API_HOST;
 
 function Joke() {
   const [joke, setJoke] = useState([]);
@@ -10,16 +14,11 @@ function Joke() {
 
   const options = {
     method: "GET",
-    url: "https://dad-jokes.p.rapidapi.com/random/joke",
-    // url: "https://api.humorapi.com/jokes/search",
-    // url: "https://api.humorapi.com/jokes/search?api-key=8472b9af310a4bd5a03aee9c68d52ab3&keywords=knock,knock",
+    url: `${URL}`,
     headers: {
-      "X-RapidAPI-Key": "7308f7f1e7msha052c124a967225p1f646fjsn97d356c5ce58",
-      "X-RapidAPI-Host": "dad-jokes.p.rapidapi.com",
+      "X-RapidAPI-Key": `${KEY}`,
+      "X-RapidAPI-Host": `${HOST}`,
     },
-    // headers: {
-    //   "api-key": "8472b9af310a4bd5a03aee9c68d52ab3",
-    // },
   };
 
   async function getJoke() {
