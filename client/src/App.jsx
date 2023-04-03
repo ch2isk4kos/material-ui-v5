@@ -1,4 +1,4 @@
-import Layout from "./components/custom/layout/main";
+import Layout from "./components/custom/layouts/main";
 import Home from "./components/custom/Home";
 import Jokes from "./components/custom/Jokes";
 import Other from "./components/custom/Other";
