@@ -9,7 +9,7 @@
 
 ## 3rd Party APIs
 
-### [Dad Jokes](https://dadjokes.io/)
+[Dad Jokes](https://dadjokes.io/)
 
 <br>
 
