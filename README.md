@@ -15,7 +15,7 @@
 
 ## Resources
 
-### Documentation
+### Docs
 
 [Material UI v5](https://mui.com)<br>
 [React Router v6](https://reactrouter.com)<br>
