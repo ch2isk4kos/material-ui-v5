@@ -16,7 +16,7 @@ function Home() {
             Yes
           </Button>
         </Link>
-        <Link to="">
+        <Link to="/gfy">
           <Button variant="contained" color="error">
             No
           </Button>
