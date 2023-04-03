@@ -12,6 +12,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 // import MenuIcon from "@mui/icons-material/Menu";
 // import AdbIcon from "@mui/icons-material/Adb";
+import "../../styles/AppBar.css";
 
 // ROUTING
 import { useNavigate } from "react-router-dom";
@@ -55,6 +56,7 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
           <Typography
+            id="logo"
             variant="h6"
             noWrap
             // component="a"
