@@ -7,16 +7,17 @@
 <p>$ <code>npm run dev</code></p>
 <br>
 
-## 3rd Party APIs
+## APIs
 
-[Dad Jokes](https://dadjokes.io/)
-
+[Dad Jokes](https://dadjokes.io/)<br>
+[Humor API](https://humorapi.com)<br>
 <br>
 
 ## Resources
 
 ### Docs
 
+[Axios](https://axios-http.com/)<br>
 [Material UI v5](https://mui.com)<br>
 [React Router v6](https://reactrouter.com)<br>
 <br>
