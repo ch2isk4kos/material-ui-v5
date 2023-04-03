@@ -1,7 +1,8 @@
 import Layout from "./components/layout/main";
 import Home from "./components/Home";
 import Jokes from "./components/Jokes";
-import { Outlet, useRoutes } from "react-router-dom";
+import Other from "./components/Other";
+import { useRoutes } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
     {
       path: "/jokes",
       element: <Jokes />,
+    },
+    {
+      path: "/gfy",
+      element: <Other />,
     },
   ]);
 
